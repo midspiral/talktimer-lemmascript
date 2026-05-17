@@ -12,7 +12,7 @@
     "gen": "npx tsx ../LemmaScript/tools/src/lsc.ts gen --backend=dafny src/domain.ts",
     "check": "npx tsx ../LemmaScript/tools/src/lsc.ts check --backend=dafny src/domain.ts",
     "regen": "npx tsx ../LemmaScript/tools/src/lsc.ts regen --backend=dafny src/domain.ts",
-    "check:proofs": "dafny verify --standard-libraries src/domain.proofs.dfy"
+    "check:proofs": "./check-extra.sh"
   },
   "dependencies": {
     "react": "^18.2.0",
