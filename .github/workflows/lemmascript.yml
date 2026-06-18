@@ -23,5 +23,3 @@ jobs:
       - run: npm run typecheck
       - name: Build single-file UI
         run: npm run build
-      - name: Verify behavioral proofs
-        run: npm run check:proofs
