@@ -1,5 +1,8 @@
 # Talk Timer (LemmaScript)
 
+[![LemmaScript: verified](https://img.shields.io/badge/LemmaScript-verified-brightgreen)](https://github.com/midspiral/talktimer-lemmascript/actions/workflows/lemmascript.yml)
+
+
 A verified talk-timer React app. The domain model lives in `src/domain.ts` — annotated TypeScript that is translated to Dafny by [LemmaScript](https://github.com/midspiral/LemmaScript) for formal verification.
 Ported from [lemmafit](https://github.com/midspiral/lemmafit) [case study](https://github.com/midspiral/talktimer-lemmafit).
 
